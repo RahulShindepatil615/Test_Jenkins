@@ -1,10 +1,11 @@
 pipeline {
-    agent {label 'windows'}
+    agent {label 'linux'}
 
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'This is build stage Building..'
+                mkdir /rahul/home/newfolder
             }
         }
         stage('Test') {
