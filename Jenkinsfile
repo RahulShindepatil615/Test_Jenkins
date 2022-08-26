@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'This is build stage Building..'
-                mkdir /rahul/home/newfolder
+                mkdir /home/rahul/new_folder1
             }
         }
         stage('Test') {
